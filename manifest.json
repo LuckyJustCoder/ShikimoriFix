@@ -1,0 +1,19 @@
+{
+	"name": "Shikimori Fix",
+	"version": "1.0",
+	"description": "Fix for Shikimori",
+	"permissions": ["tabs", "http://*/*", "webNavigation"],
+	"background": {
+		"scripts":["background.js"]
+	},
+	"content_scripts": [{
+		"matches":["https://shikimori.one/animes/*"],
+		"js": ["jquery-3.4.1.js", "contentscript.js"]
+    }],
+	
+	"browser_action": {
+		"default_title": "Shikimori Fix",
+		"default_icon": "icon.png"
+	},
+	"manifest_version": 2
+}
