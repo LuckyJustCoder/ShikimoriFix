@@ -1,6 +1,6 @@
 # ShikimoriFix
 
-Это расширение для браузеров на базе Chromium (Chrome), которое добавит кнопку смотреть аниме на новый сайт https://shikimori.one
+Это расширение для браузеров на базе Chromium (Chrome, Opera (Поддержка Yandex браузера появиться в скорем времени)), которое добавит кнопку смотреть аниме на новый сайт https://shikimori.one
 Этапы установки ниже:
 
 ### Ссылка на YD > https://yadi.sk/d/MFDseCq2uWrbhg
