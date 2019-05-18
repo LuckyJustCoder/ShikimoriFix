@@ -5,7 +5,7 @@
 
 **Установка для Chrome и Opera _аутентичны_ . Поддеражки Yandex Браузера, пока нет**
 
-### Ссылка на YD > https://yadi.sk/d/MFDseCq2uWrbhg
+### Ссылка на YD > https://yadi.sk/d/phSi1NDDEYojCA
 
 # Скрины с установкой:
 ![Скачать и разархивировать](https://github.com/LuckyJustCoder/ShikimoriFix/blob/master/Install/0.png?raw=true)
