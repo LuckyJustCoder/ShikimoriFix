@@ -1,19 +1,28 @@
 {
-  "name": "Shikimori Fix",
-  "version": "1.3",
-  "description": "Fix for shikimori.one",
-  "permissions": ["tabs", "http://*/*", "webNavigation", "activeTab"],
-  "background": {
-	"scripts":["background.js"]
-  },
-  "content_scripts": [{
-	"matches":["https://shikimori.one/*"],
-	"js": ["jquery-3.4.1.js", "contentscript.js"]
-  }],
-  "browser_action": {
-	"default_title": "Shikimori Fix",
-	"default_icon": "icon.png",
-	"default_popup": "popup.html"
-  },
-  "manifest_version": 2
+	"name": "Shikimori Fix",
+	"version": "1.4",
+	"description": "The script adds a button to look at the site shikimori.one",
+	"permissions": [
+		"tabs",
+		"http://*/*",
+		"webNavigation",
+		"https://shikimori.one/animes",
+		"storage"
+	],
+	"background": {
+		"scripts": ["scripts/background.js"]
+	},
+	"content_scripts": [{
+		"matches": ["https://shikimori.one/*"],
+		"js": [
+			"scripts/jquery-3.4.1.js",
+			"scripts/contentscript.js"
+		]
+	}],
+	"browser_action": {
+		"default_title": "Shikimori Fix",
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"manifest_version": 2
 }
