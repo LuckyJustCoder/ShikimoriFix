@@ -23,4 +23,4 @@
 - Смотреть аниме - https://shikimori.one !
 
 Нашёл ошибку? Пиши :D> https://vk.com/id164083684
-#######License: [Click](https://raw.githubusercontent.com/LuckyJustCoder/ShikimoriFix/master/LICENSE)#######
+License: [Click](https://raw.githubusercontent.com/LuckyJustCoder/ShikimoriFix/master/LICENSE)
