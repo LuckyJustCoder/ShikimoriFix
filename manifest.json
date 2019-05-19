@@ -1,22 +1,20 @@
 {
 	"name": "Shikimori Fix",
-	"version": "1.4",
+	"version": "1.6",
 	"description": "The script adds a button to look at the site shikimori.one",
 	"permissions": [
-		"tabs",
-		"http://*/*",
 		"webNavigation",
-		"https://shikimori.one/animes",
-		"storage"
+		"https://shikimori.one/animes"
 	],
+	"author": "lakujust",
 	"background": {
-		"scripts": ["scripts/background.js"]
+		"scripts": ["js/background.js"]
 	},
 	"content_scripts": [{
 		"matches": ["https://shikimori.one/*"],
 		"js": [
-			"scripts/jquery-3.4.1.js",
-			"scripts/contentscript.js"
+			"js/jquery-3.4.1.js",
+			"js/content.js"
 		]
 	}],
 	"browser_action": {
