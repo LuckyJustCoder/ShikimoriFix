@@ -4,6 +4,16 @@ chrome.webNavigation.onDOMContentLoaded.addListener(function (details) {
 });
 
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
-    chrome.tabs.sendMessage(tab.id, {method: "addButton"}, function (response) {
+
+    chrome.storage.sync.get('select_language', function(data) {
+
+        if(data['select_language'] === "ru"){
+            chrome.tabs.sendMessage(tab.id, {method: "addButton_ru"}, function (response) {
+            });
+        }else{
+            chrome.tabs.sendMessage(tab.id, {method: "addButton_en"}, function (response) {
+            });
+        }
     });
+
 });

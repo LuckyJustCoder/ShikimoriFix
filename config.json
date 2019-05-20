@@ -1,3 +1,25 @@
 {
-	"actual_version": "1.6"
+	"actual_version": "1.7",
+	"language": {
+		"hello_message": {
+			"ru": "Привет!",
+			"en": "Hi!"
+		},
+		"description_message": {
+			"ru": "Это расширение добавит кнопку смотреть на сайт ",
+			"en": "This extension will add a button watch at the site "
+		},
+		"bugtraker_message": {
+			"ru": "⚠ Нашёл баг? Кликай на меня!",
+			"en": "⚠ Found a bug? Click on me!"
+		},
+		"version_message": {
+			"ru": "Версия: ",
+			"en": "Version: "
+		},
+		"version_actual": {
+			"ru": " устарела, актуальная версия: ",
+			"en": " outdated, current version: "
+		}
+	}
 }
