@@ -1,7 +1,18 @@
 $(document).ready(function () {
-
+    
     chrome.storage.sync.get('select_language', function(data) {
-        setLang(data['select_language']);
+        if (typeof data['select_language'] === "undefined") {
+            let language;
+            if (window.navigator.languages) {
+                language = window.navigator.languages[0];
+            } else {
+                language = window.navigator.userLanguage || window.navigator.language;
+            }
+            setLang(language.split("-")[0]);
+        } else {
+            setLang(data['select_language']);
+        }
+
     });
 
     $('body').on('click', 'a', function () {
@@ -38,7 +49,7 @@ function setLang(lang) {
                         let manifestData = chrome.runtime.getManifest();
 
                         if (JSON.parse(res)['actual_version'] === manifestData.version) {
-                            $('.version').text(data.language['version_message'][lang] + manifestData.version);
+                            $('.version').text(data.language['version_message'][lang]  + manifestData.version);
                         } else {
                             $('.version').text(data.language['version_message'][lang] + manifestData.version + data.language['version_actual'][lang] + JSON.parse(res)['actual_version']);
                             $('.version').css('color', 'red');
