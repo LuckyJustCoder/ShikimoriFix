@@ -1,2 +1,5 @@
-{"id": "5114-fullmetal-alchemist-brotherhood",
-"episodes": [{"type_": "Одноголосый даб", "name": "Анкорд", "player": "vk.com", "url": "vk.com//"}]}
+{'id': '5114-fullmetal-alchemist-brotherhood',
+	'episodes':[{'type_': 'Озвучка', 'episode': '1',
+	'name': 'Ancodr', 'player': Оригинал',
+	'url': 'test'}]
+	}
