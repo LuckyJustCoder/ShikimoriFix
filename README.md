@@ -19,7 +19,7 @@ Opera|Да, проверено|[Download](https://chrome.google.com/webstore/det
 - [x] Контроль версий
 - [x] Открытие последний серия
 - [x] Поддержка двух языков
-- [ ] Определение языка пользователя
+- [x] Определение языка пользователя
 
 Нашёл ошибку? Пиши :D> https://vk.com/id164083684
 ###### License: [Click](https://raw.githubusercontent.com/LuckyJustCoder/ShikimoriFix/master/LICENSE)
