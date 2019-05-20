@@ -1,7 +1,8 @@
 {
 	"name": "Shikimori Fix",
 	"version": "1.7",
-	"description": "The script adds a button to look at the site shikimori.one",
+	"description": "__MSG_appDesc__",
+	"default_locale": "en",
 	"permissions": [
 		"webNavigation",
 		"https://shikimori.one/animes",
