@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    
+
     chrome.storage.sync.get('select_language', function(data) {
         if (typeof data['select_language'] === "undefined") {
             let language;
