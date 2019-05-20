@@ -12,7 +12,7 @@ Yandex Browser|Да, проверено|[Download](https://chrome.google.com/web
 Mozilla Firefox|Да, проверено|[Download](https://addons.mozilla.org/ru/firefox/addon/lakujust/)
 Opera|Да, проверено|[Download](https://chrome.google.com/webstore/detail/shikimori-fix/falogbneclkejhpplkgekcaciijgjjpm?hl=ru)
 
-####TODO:
+#### TODO:
 - [x] Кнопка смотреть онлайн
 - [x] Меню расширения
 - [x] Контроль версий
@@ -20,4 +20,4 @@ Opera|Да, проверено|[Download](https://chrome.google.com/webstore/det
 
 
 Нашёл ошибку? Пиши :D> https://vk.com/id164083684
-######License:###### [Click](https://raw.githubusercontent.com/LuckyJustCoder/ShikimoriFix/master/LICENSE)
+###### License: [Click](https://raw.githubusercontent.com/LuckyJustCoder/ShikimoriFix/master/LICENSE)
