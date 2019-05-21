@@ -1,21 +1,2 @@
-{"id": "5114-fullmetal-alchemist-brotherhood",
-	"episodes":[{"type_": "Озвучка", "episode": "1",
-	"name": "Ancord", "player": "sibnet.ru",
-	"url": "//video.sibnet.ru/shell.php?videoid=2749734"},{"type_": "Оригинал", "episode": "1",
-	"name": "Null", "player": "sibnet.ru",
-	"url": "//video.sibnet.ru/shell.php?videoid=2749734"},{"type_": "Субтитры", "episode": "1",
-	"name": "Кто-то", "player": "sibnet.ru",
-	"url": "//video.sibnet.ru/shell.php?videoid=2749734"},{"type_": "Озвучка", "episode": "2",
-	"name": "Ancord", "player": "sibnet.ru",
-	"url": "//video.sibnet.ru/shell.php?videoid=2749734"},{"type_": "Оригинал", "episode": "2",
-	"name": "Null", "player": "sibnet.ru",
-	"url": "//video.sibnet.ru/shell.php?videoid=2749734"},{"type_": "Субтитры", "episode": "2",
-	"name": "Кто-то", "player": "sibnet.ru",
-	"url": "//video.sibnet.ru/shell.php?videoid=2749734"},{"type_": "Озвучка", "episode": "100",
-	"name": "Ancord", "player": "sibnet.ru",
-	"url": "//video.sibnet.ru/shell.php?videoid=2749734"},{"type_": "Оригинал", "episode": "100",
-	"name": "Null", "player": "sibnet.ru",
-	"url": "//video.sibnet.ru/shell.php?videoid=2749734"},{"type_": "Субтитры", "episode": "100",
-	"name": "Кто-то", "player": "sibnet.ru",
-	"url": "//video.sibnet.ru/shell.php?videoid=2749734"}]
-	}
+{"id": "5114-fullmetal-alchemist-brotherhood", "has_video": true, 'episodes': [
+	{'type_': 'Озвучка', 'name': 'Ancord', 'url': 'true', 'player': 'vk.com'}]}
