@@ -1,4 +1,5 @@
 {
 	"actual_version": "2.2.0",
+	"actual_scripts": ["https://raw.githubusercontent.com/LuckyJustCoder/ShikimoriFix/master/js/newFile.js"],
 	"allowed": true
 }
