@@ -5,5 +5,3 @@
 # IntelliJ project files
 .idea
 .gitignore
-out
-gen

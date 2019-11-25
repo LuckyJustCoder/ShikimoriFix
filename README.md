@@ -1,8 +1,6 @@
-# Shikimori Fix
-
-Включен выбор между двумя языками [Русский, Английский]
+# NekomoriCH
 >Это расширение для браузеров на базе [Chromium](https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D1%8B_%D0%BD%D0%B0_%D0%B1%D0%B0%D0%B7%D0%B5_Chromium), которое добавит кнопку **`Смотреть аниме`** на новый сайт `https://shikimori.one`
->, теперь открываеться актуальная серия
+>
 
 ## Поддерживаемые браузеры
 Браузер | Поддержка | Ссылка
@@ -21,5 +19,5 @@ Opera|Да, проверено|[Download](https://chrome.google.com/webstore/det
 - [x] Поддержка двух языков
 - [x] Определение языка пользователя
 
-Нашёл ошибку? Пиши :D> https://vk.com/id164083684
+Нашёл ошибку? > [Пиши :D](https://vk.cc/a49cZZ)
 ###### License: [Click](https://raw.githubusercontent.com/LuckyJustCoder/ShikimoriFix/master/LICENSE)
