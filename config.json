@@ -1,6 +1,6 @@
 {
 	"actual_version": "3.1.8",
-	"message": "В cвязи с новой политикой shikimori, просим вступить в нашу группу https://vk.com/nekomorich",
+	"message": "В cвязи с новой политикой shikimori, просим вступить в нашу группу <a href='https://vk.com/nekomorich'>https://vk.com/nekomorich</a>",
 	"web_only": "false",
 	"allowed": "true",
 	"point": "rip"
