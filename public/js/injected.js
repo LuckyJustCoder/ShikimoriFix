@@ -10,7 +10,7 @@ document.addEventListener("yourCustomEvent", function(e) {
 
 	if (!$(".watch_link").length) {
 		$(".watch-online-placeholer").append(
-				"<div class='block'><a class='b-link_button dark watch_link watch-online'>Смотреть онлайн</a></div>"
+				"<div class='block'><a class='b-link_button dark watch_link watch-online'>Смотреть онлайн!</a></div>"
 		);
 		let episode = (parseInt($(".current-episodes").text()) || 0) + 1;
 		if (parseInt($(".total-episodes").text()) < parseInt(episode) - 1) {
