@@ -1,17 +1,23 @@
 let link;
 
-document.addEventListener("yourCustomEvent", function(e) {
+document.addEventListener("yourCustomEvent", function (e) {
 	let cofg = JSON.parse(e.detail);
 	link = cofg.link;
+
+	if (!$(".watch-online-placeholer").length) {
+		$(".c-info-right").append("<div class='watch-online-placeholer'></div>");
+	}
 
 	if ($(".watch-online-placeholer .block:last-child")) {
 		$(".watch-online-placeholer .block:last-child").remove();
 	}
 
 	if (!$(".watch_link").length) {
+
 		$(".watch-online-placeholer").append(
-				"<div class='block'><a class='b-link_button dark watch_link watch-online'>Смотреть онлайн!</a></div>"
+				"<div class='block'><a class='b-link_button dark watch_link watch-online'>Смотреть онлайн</a></div>"
 		);
+
 		let episode = (parseInt($(".current-episodes").text()) || 0) + 1;
 		if (parseInt($(".total-episodes").text()) < parseInt(episode) - 1) {
 			episode = 1;

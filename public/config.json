@@ -5,8 +5,8 @@
 	"point": "rip",
 	"files": {
 		"index": {
-			"css": "",
-			"js": "",
+			"css": "https://raw.githubusercontent.com/LuckyJustCoder/ShikimoriFix/master/public/index/index.css",
+			"js": "https://raw.githubusercontent.com/LuckyJustCoder/ShikimoriFix/master/public/index/index.js",
 			"version": "1.0"
 		},
 		"popup": {
