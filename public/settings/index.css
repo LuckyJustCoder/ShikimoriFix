@@ -1,3 +1,82 @@
-.div {
-
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
 }
+.layout {
+  background-color: #272c38;
+  min-width: 100vw;
+  min-height: 100vh;
+  font-family: 'NeoSansPro-Regular';
+}
+.layout .center {
+    position: absolute;
+    top: 40%;
+    width: 650px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.layout .center > .select {
+      color: #FFF;
+      font-size: 18px;
+      text-align: center;
+}
+.layout .center > .open-from {
+      justify-content: space-between;
+      display: flex;
+      align-items: center;
+      margin-top: 30px;
+}
+.layout .center > .open-from > .card {
+        width: 220px;
+        border-radius: 4px;
+        overflow: hidden;
+        transition: all .2s ease-out;
+        cursor: pointer;
+}
+.layout .center > .open-from > .card > .icon {
+          width: 100%;
+          height: 320px;
+          background-position: center;
+          background-size: cover;
+}
+.layout .center > .open-from > .card > .info {
+          margin-top: 10px;
+}
+.layout .center > .open-from > .card > .info > .title, .layout .center > .open-from > .card > .info > .sub-title {
+            text-align: center;
+            user-select: none;
+            font-size: 14px;
+}
+.layout .center > .open-from > .card > .info > .title {
+            color: #ffffff;
+}
+.layout .center > .open-from > .card > .info > .sub-title {
+            color: #797c84;
+}
+.layout .center > .open-from > .card.on-web > .icon {
+          background-image: url("https://i.pinimg.com/736x/ba/81/63/ba8163b089274d388e2cb431f944c957.jpg");
+}
+.layout .center > .open-from > .card.on-local > .icon {
+          background-image: url("https://cs11.pikabu.ru/post_img/big/2019/01/03/6/1546506889169377998.png");
+}
+.layout .center > .open-from > .card:hover {
+          transform: scale(1.02);
+}
+@font-face {
+  font-family: 'fontbaf7b1055484a2eb9215b5e296843efd';
+  src: url("https://nomail.com.ua/files/eot/baf7b1055484a2eb9215b5e296843efd.eot?#iefix") format("embedded-opentype"), url("https://nomail.com.ua/files/woff/baf7b1055484a2eb9215b5e296843efd.woff") format("woff"), url("https://nomail.com.ua/files/woff2/baf7b1055484a2eb9215b5e296843efd.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'NeoSansPro-Regular';
+  src: local("NeoSansPro-Regular"), url("https://nomail.com.ua/files/woff/baf7b1055484a2eb9215b5e296843efd.woff") format("woff");
+}
+
+/*````````````````````````````````` noMail.com.ua - Каталог шрифтов ```````````````````````````````````````*/
+#neosanspro {
+  font-family: 'NeoSansPro-Regular';
+}
+.fontbaf7b1055484a2eb9215b5e296843efd {
+  font-family: 'fontbaf7b1055484a2eb9215b5e296843efd';
+}
+
