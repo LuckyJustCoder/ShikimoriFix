@@ -1,18 +1,4 @@
 {
-	"actual_version": "3.1.8",
+	"actual_version": "3.0",
 	"message": "В cвязи с новой политикой shikimori, просим вступить в нашу группу <a href='https://vk.com/nekomorich'>https://vk.com/nekomorich</a>",
-	"allowed": "true",
-	"point": "rip",
-	"files": {
-		"index": {
-			"css": "https://raw.githubusercontent.com/LuckyJustCoder/ShikimoriFix/master/public/index/index.css",
-			"js": "https://raw.githubusercontent.com/LuckyJustCoder/ShikimoriFix/master/public/index/index.js",
-			"version": "1.0"
-		},
-		"popup": {
-			"css": "",
-			"js": "",
-			"version": "1.0"
-		}
-	}
 }
