@@ -1,8 +1,5 @@
-let link;
-
 document.addEventListener("yourCustomEvent", function (e) {
-	let cofg = JSON.parse(e.detail);
-	link = cofg.link;
+	let props = JSON.parse(e.detail);
 
 	if (!$(".watch-online-placeholer").length) {
 		$(".c-info-right").append("<div class='watch-online-placeholer'></div>");
@@ -31,14 +28,14 @@ document.addEventListener("yourCustomEvent", function (e) {
 		let title = $(".inline")
 				.parent()
 				.text();
-		if (cofg.open_with === true) {
+		if (props['open_with'] === true) {
 			$(".watch_link")
 					.attr("target", "_blank")
 					.attr("href", `https://app.nekomori.ch/player/${id}`);
 		} else {
 			$(".watch_link").attr(
 					"href",
-					`${cofg.link}#/${id}/${episode}/?total=${total}&title=${title}`
+					`${props['link']}#/${id}/${episode}/?total=${total}&title=${title}`
 			);
 		}
 	}
