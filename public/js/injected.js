@@ -2,6 +2,7 @@ document.addEventListener("yourCustomEvent", function (e) {
 	let props = JSON.parse(e.detail);
 
 	if (!$(".watch-online-placeholer").length) {
+		$('.watch-online').remove();
 		$(".c-info-right").append("<div class='watch-online-placeholer'></div>");
 	}
 
