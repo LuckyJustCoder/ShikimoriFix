@@ -2,7 +2,6 @@ document.addEventListener("yourCustomEvent", function (e) {
 	let props = JSON.parse(e.detail);
 
 	if (!$(".watch-online-placeholer").length) {
-		$('.watch-online').remove();
 		$(".c-info-right").append("<div class='watch-online-placeholer'></div>");
 	}
 
@@ -13,7 +12,7 @@ document.addEventListener("yourCustomEvent", function (e) {
 	if (!$(".watch_link").length) {
 
 		$(".watch-online-placeholer").append(
-				"<div class='block'><a class='b-link_button dark watch_link watch-online'>Смотреть онлайн</a></div>"
+				"<div class='block'><div class='subheadline' style='margin-bottom: 10px'>Смотреть на Nekomori</div><a class='b-link_button dark watch_link watch-online'>Смотреть онлайн</a></div>"
 		);
 
 		let episode = (parseInt($(".current-episodes").text()) || 0) + 1;
