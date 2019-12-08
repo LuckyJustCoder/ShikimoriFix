@@ -28,15 +28,16 @@ document.addEventListener("yourCustomEvent", function (e) {
 		let title = $(".inline")
 				.parent()
 				.text();
-		if (props['open_with'] === true) {
-			$(".watch_link")
-					.attr("target", "_blank")
-					.attr("href", `https://app.nekomori.ch/player/${id}`);
-		} else {
-			$(".watch_link").attr(
-					"href",
-					`${props['link']}#/${id}/${episode}/?total=${total}&title=${title}`
-			);
-		}
+		$(".watch_link")
+			.attr("target", "_blank")
+			.attr("href", `https://app.nekomori.ch/player/${id}`);		
+// 		if (props['open_with'] === true) {
+
+// 		} else {
+// 			$(".watch_link").attr(
+// 					"href",
+// 					`${props['link']}#/${id}/${episode}/?total=${total}&title=${title}`
+// 			);
+// 		}
 	}
 });
