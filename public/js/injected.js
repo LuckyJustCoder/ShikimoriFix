@@ -1,8 +1,4 @@
-let link;
-
 document.addEventListener("yourCustomEvent", function (e) {
-	let cofg = JSON.parse(e.detail);
-	link = cofg.link;
 
 	if (!$(".watch-online-placeholer").length) {
 		$(".c-info-right").append("<div class='watch-online-placeholer'></div>");
