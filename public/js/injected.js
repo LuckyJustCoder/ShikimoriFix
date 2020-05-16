@@ -10,7 +10,7 @@ document.addEventListener("yourCustomEvent", function (e) {
 
 	if (!$(".watch_link").length) {
 		if (!$(".watch-neko").length) {
-			const id = location.pathname.split("/")[2].split("-")[0];
+			const id = location.pathname.split("/")[2].split("-")[0].replace(/[^0-9]/gim,'');
 			$(".watch-online-placeholer").append(
 					"<div class='block watch-neko'><a href='https://nekomori.ch/anime/-" + id + "/general' class='b-link_button dark watch_link watch-online'>Найти на nekomori.ch</a></div>"
 			);
