@@ -17,6 +17,3 @@ Opera|Да, проверено|[Download](https://chrome.google.com/webstore/det
 - [x] Контроль версий
 - [x] Открытие последний серия
 - [ ] Manga Reader
-
-Нашёл ошибку? > [Пиши :D](https://vk.cc/a49cZZ)
-###### License: [Click](https://raw.githubusercontent.com/LuckyJustCoder/ShikimoriFix/master/LICENSE)
